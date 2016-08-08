@@ -8,13 +8,17 @@
 <body>
 
 <div class="individual-list">
+
   <div class="header">
+
     <h1>Commit List</h1>
-    <input type="text" id="myInput" placeholder="To Do Item Title...">
+    <input type="text" id="myInput" placeholder="To Do Item Title..."/>
     <span onclick="newElement()" id="addBtn">Add</span>
+
   </div>
 
   <ul id="myUL"></ul>
+
 </div>
 
 <script type="text/javascript" src="js/main.js"></script>
