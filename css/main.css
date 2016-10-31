@@ -11,8 +11,7 @@ h1 {
   position: relative;
   overflow-y: auto;
   overflow-x: hidden;
-  text-overflow: ellipsis;
-  border: 1px solid #777; }
+  text-overflow: ellipsis; }
 
 ul {
   margin: 0;
@@ -59,15 +58,13 @@ ul {
     color: white; }
 
 .header {
-  border-bottom: 1px solid #777;
   padding: 30px 40px;
   color: #777;
   text-align: center;
   position: fixed;
   z-index: 9;
   background-color: #fff;
-  width: 100%;
-  max-width: 498px; }
+  width: 100%; }
   .header:after {
     content: "";
     display: table;
@@ -80,36 +77,9 @@ input {
   float: left;
   font-size: 16px; }
 
-input#myInput {
-  border: 1px solid transparent;
-  border-bottom: 1px solid #bbb;
-  border-right: 0;
-  -webkit-transition: 0.15s;
-  -moz-transition: 0.15s;
-  -ms-transition: 0.15s;
-  transition: 0.15s; }
-  input#myInput:focus {
-    border-color: #000;
-    outline: none; }
-
 #addBtn {
-  padding: 10px;
-  width: 25%;
-  height: 40px;
-  background: #fff;
-  color: #777;
-  float: left;
   text-align: center;
   font-size: 16px;
-  cursor: pointer;
-  border: 1px solid transparent;
-  border-bottom: 1px solid #bbb;
-  border-left: 1px solid #bbb;
-  -webkit-transition: 0.15s;
-  -moz-transition: 0.15s;
-  -ms-transition: 0.15s;
-  transition: 0.15s; }
-  #addBtn:hover {
-    border-color: #000; }
+  cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

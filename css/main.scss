@@ -31,7 +31,6 @@ h1 {
   overflow-y: auto;
   overflow-x: hidden;
   text-overflow: ellipsis;
-  border: 1px solid #777;
 }
 
 ul {
@@ -92,7 +91,6 @@ ul {
 }
 
 .header {
-  border-bottom: 1px solid #777;
   padding: 30px 40px;
   color: #777;
   text-align: center;
@@ -100,7 +98,6 @@ ul {
   z-index: 9;
   background-color: #fff;
   width: 100%;
-  max-width: 498px;
 
   &:after {
     content: "";
@@ -117,34 +114,8 @@ input {
   font-size: 16px;
 }
 
-input#myInput {
-  border: 1px solid transparent;
-  border-bottom: 1px solid #bbb;
-  border-right: 0;
-  @include transition(.15s);
-
-  &:focus {
-    border-color: #000;
-    outline: none;
-  }
-}
-
 #addBtn {
-  padding: 10px;
-  width: 25%;
-  height: 40px;
-  background: #fff;
-  color: #777;
-  float: left;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
-  border: 1px solid transparent;
-  border-bottom: 1px solid #bbb;
-  border-left: 1px solid #bbb;
-  @include transition(.15s);
-
-  &:hover {
-    border-color: #000;
-  }
 }
